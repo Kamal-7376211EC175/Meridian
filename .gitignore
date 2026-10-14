@@ -1,0 +1,49 @@
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+token.json
+credentials.json
+*.pickle
+
+# ─── Python ──────────────────────────────────────
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyogit rm --cached .env
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ─── Node / Frontend ─────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Logs ────────────────────────────────────────
+*.log
+logs/
+
+# ─── OS Files ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
